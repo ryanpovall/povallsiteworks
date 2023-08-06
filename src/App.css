@@ -192,7 +192,7 @@ body {
 .service-section--info {
   display: flex;
   flex-direction: column;
-  margin-top: 50px;
+  margin-top: 60px;
   /* warm gray */
   background-color: #001F3F; 
   /* charcoal yellow */
@@ -244,7 +244,7 @@ body {
 }
 
 .service-section--description {
-  padding: 40px;
+  padding: 20px;
   text-align: center;
 }
 
@@ -255,11 +255,11 @@ body {
 }
 
 .card-arrow-left {
-  width: 24px;
-  height: 24px;
+  width: 32px;
+  height: 32px;
   position: absolute;
   bottom: 50%;
-  left: 10px;
+  left: 15px;
   cursor: pointer;
   background-image: url('/assets/Arrow2left.png');
   background-position: center;
@@ -270,11 +270,11 @@ body {
 }
 
 .card-arrow-right {
-  width: 24px;
-  height: 24px;
+  width: 32px;
+  height: 32px;
   position: absolute;
   bottom: 50%;
-  right: 10px;
+  right: 15px;
   cursor: pointer;
   background-image: url('/assets/Arrow2right.png');
   background-position: center;
