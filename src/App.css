@@ -255,8 +255,8 @@ body {
 }
 
 .card-arrow-left {
-  width: 32px;
-  height: 32px;
+  width: 28px;
+  height: 28px;
   position: absolute;
   bottom: 50%;
   left: 15px;
@@ -270,8 +270,8 @@ body {
 }
 
 .card-arrow-right {
-  width: 32px;
-  height: 32px;
+  width: 28px;
+  height: 28px;
   position: absolute;
   bottom: 50%;
   right: 15px;
