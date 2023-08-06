@@ -1,4 +1,5 @@
 import React from "react"
+import mainLogo from "/assets/logo.jpeg"
 
 export default function NavBar () {
     const [dropdownVisible, setDropdownVisible] = React.useState(false);
@@ -12,7 +13,7 @@ export default function NavBar () {
     return (
         <div>
             <nav className="nav">
-                <img src='../assets/logo.jpeg' className="nav--icon"/>
+                <img src={mainLogo} className="nav--icon"/>
                 <ul className="nav--menu-bar">
                     <li><a href="#Excavation" className="nav--item">Excavation</a></li>
                     <li><a href="#Drainage" className="nav--item">Drainage</a></li>
