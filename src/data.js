@@ -1,6 +1,6 @@
 export default [
       {
-        header: 'GENERAL SITE WORK',
+        header: 'General Site Work',
         description: [
             'Residential homes',
             'Commercial developments',
@@ -19,7 +19,7 @@ export default [
         ]
       },
       {
-        header: 'EXCAVATION',
+        header: 'Excavation',
         description: [
             'All machine work',
             'Grading',
@@ -49,7 +49,7 @@ export default [
         ]
       },
       {
-        header: 'LANDSCAPING',
+        header: 'Landscaping',
         description: [
             'Lawn installations and repairs',
             'Stamped concrete',
@@ -86,7 +86,7 @@ export default [
         ]
       },
       {
-        header: 'DRAINAGE',
+        header: 'Drainage',
         description: [
             'Foundation drainage',
             'Storm drains',
@@ -116,7 +116,7 @@ export default [
         ]
       },
       {
-        header: 'SEPTIC',
+        header: 'Septic',
         description: [
             'Repairs',
             'New installs - Tanks, D-boxes, Fields, etc.'

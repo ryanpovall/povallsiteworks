@@ -203,6 +203,7 @@ body {
   font-size: 2em;
   text-align: center;
   margin-top: 0px;
+  text-transform: uppercase;
 }
 
 .service-section--description-container {

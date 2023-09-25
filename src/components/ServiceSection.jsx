@@ -52,7 +52,7 @@ export default function ServiceSection (props) {
     return (
         <section className="service-section">
             <div className="service-section--description-container">
-                <div className="service-section--description-text">
+                <div className="service-section--description-text" id={props.header}>
                     <h2>{props.header}</h2>
                     {descriptions}
                 </div>
