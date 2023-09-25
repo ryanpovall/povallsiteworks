@@ -1,59 +1,64 @@
 export default [
       {
-        header: 'Excavation',
-        description: 'Discover the hidden treasures beneath your land with our expert excavation services. From digging foundations to land clearing, we provide efficient solutions tailored to your needs. Unearth the potential of your project with our skilled team at your side.',
+        header: 'GENERAL SITE WORK',
+        description: [
+            'Residential homes',
+            'Commercial developments',
+            'Trucking - Small deliveries of stone, topsoil, fill, etc.'
+        ],
         cards: [
             {
-                //title: 'Excavation',
+                img: './assets/machinery.jpeg'
+            },
+            {
+                img: './assets/lawn_service.jpeg'
+            },
+            {
+                img: './assets/commercial.jpeg'
+            }
+        ]
+      },
+      {
+        header: 'EXCAVATION',
+        description: [
+            'All machine work',
+            'Grading',
+            'Trenching',
+            'Speciality digging',
+            'Foundation & pool excavation'
+        ],
+        cards: [
+            {
                 img: './assets/excavation1.jpeg'
             },
             {
-                //title: 'Excavation',
                 img: './assets/excavation2.jpeg'
             },
             {
-                //title: 'Excavation',
                 img: './assets/excavation3.jpeg'
             },
             {
-                //title: 'Excavation',
                 img: './assets/excavation4.jpeg'
             },
             {
-                //title: 'Excavation',
                 img: './assets/excavation5.jpeg'
             },
             {
-                //title: 'Excavation',
                 img: './assets/excavation6.jpeg'
             },
         ]
       },
       {
-        header: 'Drainage',
-        description: 'Say goodbye to water woes with our top-notch drainage services. We specialize in effective solutions for all your drainage needs, from installation and repair to maintenance. Let us keep your property dry and protected from unwanted water accumulation.',
-        cards: [
-            {
-                title: 'Foundation drainage',
-                img: './assets/Foundation drainage.jpeg'
-            },
-            {
-                title: 'Storm drains',
-                img: './assets/Curtain drain.jpeg'
-            },
-            {
-                title: 'Stormwater',
-                img: './assets/Stormwater.jpeg'
-            },
-            {
-                title: 'Curtain & French drains',
-                img: './assets/more drainage.jpeg'
-            }
-        ]
-      },
-      {
-        header: 'Landscaping',
-        description: 'Transform your outdoor space into a breathtaking oasis with our exceptional landscaping services. From design and installation to maintenance and hardscaping, we bring your vision to life. Let our skilled team create a landscape that reflects your style and enhances the beauty of your property.',
+        header: 'LANDSCAPING',
+        description: [
+            'Lawn installations and repairs',
+            'Stamped concrete',
+            'Decorative rock',
+            'New Plantings',
+            'Mulch',
+            'Mowing',
+            'Spring and fall cleanups'
+        ],
         cards: [
             {
                 title: 'Stamped concrete',
@@ -74,12 +79,48 @@ export default [
             {
                 title: 'Mulch',
                 img: './assets/mulch.jpeg'
+            },
+            {
+                img: './assets/landscaping.jpeg'
             }
         ]
       },
       {
-        header: 'Septic',
-        description: 'From expert septic tank pumping to meticulous inspections and repairs, our dedicated team is here to ensure your septic system runs smoothly. Trust us to deliver reliable, efficient, and affordable septic services tailored to meet your needs, keeping your home and environment clean and healthy.',
+        header: 'DRAINAGE',
+        description: [
+            'Foundation drainage',
+            'Storm drains',
+            'Stormwater basins',
+            'Curtain and French drains'
+        ],
+        cards: [
+            {
+                title: 'Foundation drainage',
+                img: './assets/Foundation drainage.jpeg'
+            },
+            {
+                title: 'Storm drains',
+                img: './assets/Curtain drain.jpeg'
+            },
+            {
+                title: 'Stormwater basins',
+                img: './assets/Stormwater.jpeg'
+            },
+            {
+                title: 'Curtain & French drains',
+                img: './assets/more drainage.jpeg'
+            },
+            {
+                img: './assets/drainage.jpeg'
+            }
+        ]
+      },
+      {
+        header: 'SEPTIC',
+        description: [
+            'Repairs',
+            'New installs - Tanks, D-boxes, Fields, etc.'
+        ],
         cards: [
             {
                 title: 'Repairs',
@@ -96,24 +137,9 @@ export default [
             {
                 title: 'New septic tanks',
                 img: './assets/septic4.jpeg'
-            }
-        ]
-      },
-      {
-        header: 'Commercial Property Maintenance',
-        description: 'Keep your commercial property in pristine condition with our comprehensive maintenance services. From landscaping and exterior upkeep to HVAC and plumbing maintenance, we ensure your business operates smoothly. Trust our dedicated team to handle all your property needs with professionalism and care.',
-        cards: [
-            {
-                title: 'Weekly lawn service',
-                img: './assets/weekly_lawn_service.jpeg'
             },
             {
-                title: 'Plowing',
-                img: './assets/east_fishkill.jpeg'
-            },
-            {
-                title: 'Landscape services',
-                img: './assets/autozone.jpeg'
+                img: './assets/septic5.jpeg'
             }
         ]
       }

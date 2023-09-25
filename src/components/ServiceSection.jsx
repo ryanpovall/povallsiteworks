@@ -4,6 +4,16 @@ import Dot from "./Dot"
 
 export default function ServiceSection (props) {
     const [currentCardIndex, setCardIndex] = React.useState(0);
+    const descriptions = props.description.map((text) => {
+        return (
+            <div class='service-section--bullet'>
+                <span class="material-symbols-outlined">task_alt</span>
+                <span class="service-section--bullet-text">{text}</span>
+
+            </div>
+        )
+    });
+
     const cards = props.cards.map((card, index) => {
         return (
             <Card key={index}
@@ -41,14 +51,10 @@ export default function ServiceSection (props) {
 
     return (
         <section className="service-section">
-            <div className="service-section--info">
-                <div className="service-section--header" id={props.header}>
-                    <div className="service-section--left-diagonal"></div>
-                    <div className="service-section--right-diagonal"></div>
+            <div className="service-section--description-container">
+                <div className="service-section--description-text">
                     <h2>{props.header}</h2>
-                </div>
-                <div className="service-section--description">
-                    {props.description}
+                    {descriptions}
                 </div>
             </div>
             <div className="card-container">
