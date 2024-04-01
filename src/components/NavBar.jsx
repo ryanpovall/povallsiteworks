@@ -13,7 +13,7 @@ export default function NavBar () {
     return (
         <div>
             <nav className="nav">
-                <img src={mainLogo} className="nav--icon"/>
+                <img src={mainLogo} alt="Povall Siteworks logo" className="nav--icon"/>
                 <ul className="nav--menu-bar">
                     <li><a href="#General Site Work" className="nav--item">General Site Work</a></li>
                     <li><a href="#Excavation" className="nav--item">Excavation</a></li>

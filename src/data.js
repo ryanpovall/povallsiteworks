@@ -8,12 +8,15 @@ export default [
         ],
         cards: [
             {
+                // title: 'Machinery',
                 img: './assets/machinery.jpeg'
             },
             {
+                // title: 'Lawn service',
                 img: './assets/lawn_service.jpeg'
             },
             {
+                // title: 'Commercial mowing',
                 img: './assets/commercial.jpeg'
             }
         ]
@@ -29,21 +32,27 @@ export default [
         ],
         cards: [
             {
+                // title: 'Excavation',
                 img: './assets/excavation1.jpeg'
             },
             {
+                // title: 'Excavation',
                 img: './assets/excavation2.jpeg'
             },
             {
+                // title: 'Excavation',
                 img: './assets/excavation3.jpeg'
             },
             {
+                // title: 'Excavation',
                 img: './assets/excavation4.jpeg'
             },
             {
+                // title: 'Excavation',
                 img: './assets/excavation5.jpeg'
             },
             {
+                // title: 'Excavation',
                 img: './assets/excavation6.jpeg'
             },
         ]
@@ -61,26 +70,27 @@ export default [
         ],
         cards: [
             {
-                title: 'Stamped concrete',
+                // title: 'Stamped concrete',
                 img: './assets/stamped_concrete.jpeg'
             },
             {
-                title: 'New lawn installs',
+                // title: 'New lawn installs',
                 img: './assets/new_lawn_installs.jpeg'
             },
             {
-                title: 'New plantings',
+                // title: 'New plantings',
                 img: './assets/new_plantings.jpeg'
             },
             {
-                title: 'Decorative rock',
+                // title: 'Decorative rock',
                 img: './assets/decorative_rock.jpeg'
             },
             {
-                title: 'Mulch',
+                // title: 'Mulch',
                 img: './assets/mulch.jpeg'
             },
             {
+                // title: 'Landscaping',
                 img: './assets/landscaping.jpeg'
             }
         ]
@@ -95,22 +105,23 @@ export default [
         ],
         cards: [
             {
-                title: 'Foundation drainage',
+                // title: 'Foundation drainage',
                 img: './assets/Foundation drainage.jpeg'
             },
             {
-                title: 'Storm drains',
+                // title: 'Storm drains',
                 img: './assets/Curtain drain.jpeg'
             },
             {
-                title: 'Stormwater basins',
+                // title: 'Stormwater basins',
                 img: './assets/Stormwater.jpeg'
             },
             {
-                title: 'Curtain & French drains',
+                // title: 'Curtain & French drains',
                 img: './assets/more drainage.jpeg'
             },
             {
+                // title: 'Drainage',
                 img: './assets/drainage.jpeg'
             }
         ]
@@ -123,22 +134,23 @@ export default [
         ],
         cards: [
             {
-                title: 'Repairs',
+                // title: 'Repairs',
                 img: './assets/septic1.jpeg'
             },
             {
-                title: 'New septic fields',
+                // title: 'New septic fields',
                 img: './assets/septic2.jpeg'
             },
             {
-                title: 'New septics',
+                // title: 'New septics',
                 img: './assets/septic3.jpeg'
             },
             {
-                title: 'New septic tanks',
+                // title: 'New septic tanks',
                 img: './assets/septic4.jpeg'
             },
             {
+                // title: 'Septic',
                 img: './assets/septic5.jpeg'
             }
         ]

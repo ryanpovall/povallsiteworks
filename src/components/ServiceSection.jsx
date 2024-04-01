@@ -59,8 +59,8 @@ export default function ServiceSection (props) {
             </div>
             <div className="card-container">
                 {cards}
-                <button className="card-arrow-left" src='./assets/Arrow2left.png' onClick={handleLeftArrowClick}></button>
-                <button className="card-arrow-right" src='./assets/Arrow2right.png' onClick={handleRightArrowClick}></button>
+                <button className="card-arrow-left" aria-label="left arrow" src='./assets/Arrow2left.png' onClick={handleLeftArrowClick}></button>
+                <button className="card-arrow-right" aria-label="right arrow" src='./assets/Arrow2right.png' onClick={handleRightArrowClick}></button>
                 <div className="dot-container">{dots}</div>
             </div>
         </section>
