@@ -22,7 +22,7 @@ export default function Footer () {
                 </div>
             </div>
             <div className="footer--copyright">
-                <p>© 2023 Povall Siteworks LLC</p>
+                <p>© 2024 Povall Siteworks LLC</p>
             </div>
         </footer>
     )
